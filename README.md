@@ -7,4 +7,4 @@ Hej! Mam na imię Aga. Do projektu przyciągnęły mnie:
 - ciekawość
 - chęć nauczenia się czegoś nowego
 - poszukiwania innej ścieżki rozwoju zawodowego.
-Badam teren, szukając zajęcia, które będzie sprawiało mi frajdę 🙂
+<p>Badam teren, szukając zajęcia, które będzie sprawiało mi frajdę 🙂</p>
