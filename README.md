@@ -1,8 +1,8 @@
 # challenge_portfolio_aga
-## **Task 1**
-### **Subtask 1**
+# **Task 1**
+## **Subtask 1**
 10 punktów
-### **Subtask 3**
+## **Subtask 3**
 Hej! Mam na imię Aga. Do projektu przyciągnęły mnie:
 - ciekawość
 - chęć nauczenia się czegoś nowego
