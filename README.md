@@ -29,7 +29,7 @@ Hej! Mam na imię Aga. Do projektu przyciągnęły mnie:
 <p>Co bym zmieniła?</p>
 
  - na pewno wyklarowałabym kwestie dodawania raportów i recenzji zawodników
- - zmieniłabym sposób graficznego prezentowania zdarzeń z udziałem zawodników, w tej chwili nie wiadomo, jakie informacje się raportują, opis powinien być pod czytelną grafiką
+ - zmieniłabym sposób graficznego prezentowania zdarzeń z udziałem zawodników, w tej chwili nie widać, jakie informacje się raportują, opis powinien być pod czytelną grafiką
  - poprawiłabym raportowanie danych do CSV.
 3. Interfejs strony nie jest czytelny. Elementy są rozłożone chaotycznie, zdarzają się błędy językowe (np. Aktywnosć), nie wszystkie przekierowania działają (np. WRÓĆ DO RAPORTU na stronie głównej), brakuje oznaczenia miar (np. przy czasie gry), jest sporo różnic w formatowaniu (np. w wielkości i rodzaju czcionek), pomieszanie wersji polskiej i angielskiej (np. w wersji polskiej są: save, submit i clear), dodatkowo ostatnia funkcja - clear - nie działa poprawnie, nie działają również inne linki (np. do meczu). Zastanawiam się też, czy akcje z podsumowania na stronie głównej to zsumowane zdarzenia z raportów?
 4. Aplikacja jest umiarkowanie intuicyjna. Akcje związane z dodawaniem raportów i zdarzeń są niejasne, również na poziomie nazwy funkcji.
