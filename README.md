@@ -25,12 +25,15 @@ Hej! Mam na imię Aga. Do projektu przyciągnęły mnie:
  - czy to, że każdy może edytować raport zawodnika jest ok?
  - akcja "Rozpocznij mecz" nieczytelna i różna od opisu w wersji angielskiej - play wydaje się nie mieć sensu, wybrany czas nie zapisuje się, brak opisu zdarzenia i brak możliwości dodania opisu zdarzenia, połowy mogą być więcej niż dwie
  - data ostatniej modyfikacji raportów nie aktualizuje się
- - nie jest dla mnie jasna kategoria oceny zawodników, wg jakiego kryterium przyznawane są gwiazdki, kto ocenia, wg jakich zasad i wg jakiej skali, i dlaczego nie wszyscy są ocenieni?
+ - nie jest dla mnie jasna kategoria oceny zawodników, wg jakiego kryterium przyznawane są gwiazdki, kto ocenia, wg jakich zasad i wg jakiej skali, i dlaczego nie wszyscy są ocenieni? Czy to w ogóle powinno mnie interesować? ;-)
+ - na stronie głównej wyświetlają się niezapisane mecze, te same mecze są niewidoczne w trybie incognito; umieszczone pod nimi linki przekierowujące - WRÓĆ DO RAPORTU - nie działają
 <p>Co bym zmieniła?</p>
 
  - na pewno wyklarowałabym kwestie dodawania raportów i recenzji zawodników
  - zmieniłabym sposób graficznego prezentowania zdarzeń z udziałem zawodników, w tej chwili nie widać, jakie informacje się raportują, opis powinien być pod czytelną grafiką
  - poprawiłabym raportowanie danych do CSV.
-3. Interfejs strony nie jest czytelny. Elementy są rozłożone chaotycznie, zdarzają się błędy językowe (np. Aktywnosć), nie wszystkie przekierowania działają (np. WRÓĆ DO RAPORTU na stronie głównej), brakuje oznaczenia miar (np. przy czasie gry), jest sporo różnic w formatowaniu (np. w wielkości i rodzaju czcionek), pomieszanie wersji polskiej i angielskiej (np. w wersji polskiej są: save, submit i clear), dodatkowo ostatnia funkcja - clear - nie działa poprawnie, nie działają również inne linki (np. do meczu). Zastanawiam się też, czy akcje z podsumowania na stronie głównej to zsumowane zdarzenia z raportów?
+3. Interfejs wydaje się dość chaotyczny. Elementy na głównej stronie są rozmieszczone i sformatowane bez należytej hierarchii (domyślam się, że niezapisane mecze w ogóle nie powinny się tutaj wyświetlać), bez nich całość jest czytelniejsza (widać to w trybie incognito). Zdarzają się błędy językowe (np. Aktywnosć), nie wszystkie przekierowania działają (wspomniane powyżej, ale też linki do meczów), brakuje oznaczenia miar (np. przy czasie gry), są różnice w formatowaniu (np. w wielkości i rodzaju czcionek), pomieszanie wersji polskiej i angielskiej (np. w wersji polskiej są: save, submit i clear), dodatkowo ostatnia funkcja - clear - nie działa poprawnie. Zastanawiam się też, czy akcje z podsumowania na stronie głównej to zsumowane zdarzenia z raportów?
 4. Aplikacja jest umiarkowanie intuicyjna. Akcje związane z dodawaniem raportów i zdarzeń są niejasne, również na poziomie nazwy funkcji.
-5. To co wydaje mi się błędem opisałam we wcześniejszych odpowiedziach.
+5. Oprócz wspomnianych wcześniej, dodam, że nie działa funkcja przypomnienie hasła. Mejle nie wysyłają się - problem z konfiguracją poczty.
+## **Subtask 5**
+Zaproszenie wysłane :-)
