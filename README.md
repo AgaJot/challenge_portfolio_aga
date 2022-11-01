@@ -11,13 +11,13 @@ Hej! Mam na imię Aga. Do projektu przyciągnęły mnie:
 ## **Subtask 4**
 1. Aplikacja służy do przeglądania i gromadzenia danych o piłkarzach.
 2. Funkcjonalności w aplikacji:
-   - dodawanie zawodników (ale kasowania już nie ma ;-)
+ - dodawanie zawodników (ale kasowania już nie ma ;-)
  - uzupełnianie danych personalnych i meczowych zawodników
  - tworzenie pogłębionych raportów na temat udziału piłkarzy w konkretnych spotkaniach meczowych
  - dodawanie zdarzeń z udziałem zawodników np. strzały, podania
  - filtrowanie, sortowanie, drukowanie list z zawodnikami
  - generowanie raportów CSV.
-<p>Nie wszystkie funkcjonalności strony są intuicyjne i poprawnie działające.</p>
+  <p>Nie wszystkie funkcjonalności strony są intuicyjne i poprawnie działające.</p>
 
 <p>Co budzi wątpliwości?</p>
 
