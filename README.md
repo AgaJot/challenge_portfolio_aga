@@ -17,7 +17,7 @@ Hej! Mam na imię Aga. Do projektu przyciągnęły mnie:
  - dodawanie zdarzeń z udziałem zawodników np. strzały, podania
  - filtrowanie, sortowanie, drukowanie list z zawodnikami
  - generowanie raportów CSV.
-  <p>Nie wszystkie funkcjonalności strony są intuicyjne i poprawnie działające.</p>
+<p>Nie wszystkie funkcjonalności strony są intuicyjne i poprawnie działające.</p>
 
 <p>Co budzi wątpliwości?</p>
 
