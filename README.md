@@ -37,3 +37,7 @@ Hej! Mam na imię Aga. Do projektu przyciągnęły mnie:
 5. Oprócz wspomnianych wcześniej, dodam, że nie działa funkcja przypomnienie hasła. Mejle nie wysyłają się - problem z konfiguracją poczty.
 ## **Subtask 5**
 Zaproszenie wysłane 🙂
+
+# **Task 2**
+## **Subtask 1**
+[jedyneczka](https://docs.google.com/spreadsheets/d/1N9P7Qs1CvdrsoGfiHK0bP5TijfdHyiwX/edit?usp=share_link&ouid=101112394008003500898&rtpof=true&sd=true)
