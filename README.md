@@ -40,4 +40,10 @@ Zaproszenie wysłane 🙂
 
 # **Task 2**
 ## **Subtask 1**
-[jedyneczka](https://docs.google.com/spreadsheets/d/1N9P7Qs1CvdrsoGfiHK0bP5TijfdHyiwX/edit?usp=share_link&ouid=101112394008003500898&rtpof=true&sd=true)
+[subtask 1](https://docs.google.com/spreadsheets/d/1N9P7Qs1CvdrsoGfiHK0bP5TijfdHyiwX/edit?usp=share_link&ouid=101112394008003500898&rtpof=true&sd=true)
+## **Subtask 2**
+[subtask 2](https://docs.google.com/spreadsheets/d/1VSe978a_bU8R2hFLQsAIuuq9L_tbTMA9/edit?usp=share_link&ouid=101112394008003500898&rtpof=true&sd=true)
+## **Subtask 3**
+Myślę, że test case’y piszemy po to, by sprawdzić, czy dana strona/aplikacja spełnia cel, w jakim powstała. Poza tym przypadki testowe świetnie weryfikują, czy wszytkie funkcjonalności działają jak należy. A z perspektywy testującego muszę przyznać, że pisanie test case’ów to dobry sposób na poznanie testowanego obiektu. Czuję, że teraz, po napisaniu tych wszystkich przypadków, znam Scouts Panel znacznie lepiej. Doceniam dobracowanie strony w funkcjach pomimo pierwszego nie najlepszego wrażenia spowodowanego chyba niedopracowanym wyglądem. W sumie jest znacznie lepiej niż to się wydaje na pierwszy rzut oka 🙂
+## **Subtask 4**
+Brak czasu na zadanie dla chętnych :cry:
