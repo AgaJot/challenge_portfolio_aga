@@ -51,3 +51,5 @@ Brak czasu na zadanie dla chętnych :cry:
 # **Task 3**
 ## **Subtask 1**
 [subtask 1](https://drive.google.com/drive/folders/1190um9toj3yCoQSnBvwyFkqyGQtKpIK1)
+## **Subtask 2**
+[subtask 2](https://drive.google.com/drive/folders/19m38Ipmbk0c3RcvyCz4pK36jrv8c4u58)
