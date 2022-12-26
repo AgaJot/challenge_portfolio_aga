@@ -47,3 +47,7 @@ Zaproszenie wysłane 🙂
 Myślę, że test case’y piszemy po to, by sprawdzić, czy dana strona/aplikacja spełnia cel, w jakim powstała. Poza tym przypadki testowe świetnie weryfikują, czy wszystkie funkcjonalności działają, jak należy. A z perspektywy testującego muszę przyznać, że pisanie test case’ów to dobry sposób na poznanie testowanego obiektu. Czuję, że teraz, po napisaniu tych wszystkich przypadków, znam Scouts Panel znacznie lepiej. Doceniam dopracowanie strony w funkcjach pomimo pierwszego nie najlepszego wrażenia spowodowanego chyba skromnym wyglądem strony. W sumie jest znacznie lepiej, niż to się wydaje na pierwszy rzut oka 🙂
 ## **Subtask 4**
 Brak czasu na zadanie dla chętnych :cry:
+
+# **Task 3**
+## **Subtask 1**
+[subtask 1](https://drive.google.com/drive/folders/1190um9toj3yCoQSnBvwyFkqyGQtKpIK1)
