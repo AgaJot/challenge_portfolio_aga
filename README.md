@@ -59,3 +59,7 @@ Brak czasu na zadanie dla chętnych :cry:
 # **Task 4**
 ## **Subtask 1**
 [subtask 1](https://docs.google.com/spreadsheets/d/1GggBGnsNmSUDH5jeSHSVuW3ei3z8mdPR/edit#gid=13055112)
+## **Subtask 2**
+[subtask 2](https://drive.google.com/drive/folders/1206sPi4TkLziSeA1Nthe3fcN6QCzZqOg)
+## **Subtask 3**
+[subtask 3](https://docs.google.com/document/d/17fVCFhIsDyGKqbcH23SyXXVOy-pVPSQq/edit)
