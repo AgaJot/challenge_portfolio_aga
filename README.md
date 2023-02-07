@@ -67,3 +67,5 @@ Brak czasu na zadanie dla chętnych :cry:
 # **Task 5**
 ## **Subtask 1**
 [subtask 1](https://docs.google.com/document/d/19jBmIe_rUw3X0U-LStBR5-9A7qavi6aY/edit)
+## **Subtask 2**
+Xampp zainstalowany, baza danych zaimportowana 🙂
