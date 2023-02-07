@@ -69,3 +69,10 @@ Brak czasu na zadanie dla chętnych :cry:
 [subtask 1](https://docs.google.com/document/d/19jBmIe_rUw3X0U-LStBR5-9A7qavi6aY/edit)
 ## **Subtask 2**
 Xampp zainstalowany, baza danych zaimportowana 🙂
+## **Subtask 3**
+1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname
+   SELECT * FROM actors ORDER BY SURNAME
+   ![image](https://user-images.githubusercontent.com/116113886/217360029-f48e61fc-5bd4-4ae0-a0db-fa92d49ec8b0.png)
+
+
+
