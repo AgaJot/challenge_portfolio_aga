@@ -160,6 +160,53 @@ Xampp zainstalowany, baza danych zaimportowana 🙂
     
 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki     sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
 
+    ALTER TABLE customers
+    ADD COLUMN pseudonim varchar (30);
+    UPDATE customers
+    SET pseudonim = concat(LEFT (name,2),+RIGHT (surname,1))
+    
+    ![image](https://user-images.githubusercontent.com/116113886/217788774-df9ce6d4-4c3b-4aca-a5e9-4baa8007ab37.png)
+
+    ![image](https://user-images.githubusercontent.com/116113886/217789146-4f32e0ad-12f0-4eda-850e-1a69e7bcac1a.png)
+
+16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały
+
+    SELECT title, COUNT(*) FROM movies INNER JOIN sale ON sale.movie_id = movies.movie_id GROUP BY title
+    
+    ![image](https://user-images.githubusercontent.com/116113886/217796237-b30b0997-7064-49dc-b51f-3f65a770b66e.png)
+
+17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+
+    SELECT name FROM actors UNION SELECT name FROM customers ORDER BY name ASC
+    
+    ![image](https://user-images.githubusercontent.com/116113886/217797716-f46557cd-aaa5-424f-b73f-2960d07032bf.png)
+
+18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $
+    
+    UPDATE movies SET price = price+2.5 WHERE `year_of_production`>2000
+    
+    ![image](https://user-images.githubusercontent.com/116113886/217806384-4c2b75cd-6d2f-4396-adf6-974e3ff3b682.png)
+
+19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
+
+    SELECT name, surname, title FROM actors INNER JOIN cast ON actors.actor_id = cast.actor_id INNER JOIN movies ON cast.movie_id = movies.movie_id WHERE         actors.actor_id = 4
+    
+    ![image](https://user-images.githubusercontent.com/116113886/217808313-dd7c674e-b503-4fe9-9e1f-0505c4452493.png)
+
+20. Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
+
+    INSERT INTO customers (customer_ID, name, surname, email) VALUES ('7', 'Honia', 'Stuczka-Kucharska', 'honia@mail.com');
+    UPDATE customers SET pseudonim = concat(LEFT (name,2),+RIGHT (surname,1)) WHERE `customer_id`=7
+    
+    ![image](https://user-images.githubusercontent.com/116113886/217811915-e46d16ba-d363-4ff7-b452-254ff014a25f.png)
+
+
+
+    
+    
+
+
+
     
 
 
