@@ -126,9 +126,44 @@ Xampp zainstalowany, baza danych zaimportowana 🙂
 
 10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id
 
-   SELECT * FROM movies WHERE price > 9 AND movie_id BETWEEN 2 AND 8
+    SELECT * FROM movies WHERE price > 9 AND movie_id BETWEEN 2 AND 8
    
-   ![image](https://user-images.githubusercontent.com/116113886/217367587-6f26c09d-b42b-496e-8e5b-33205ecdd71e.png)
+    ![image](https://user-images.githubusercontent.com/116113886/217367587-6f26c09d-b42b-496e-8e5b-33205ecdd71e.png)
+   
+11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd
+
+    UPDATE customers SET `surname` = 'Miler' WHERE `name` = 'Ania'
+    
+    ![image](https://user-images.githubusercontent.com/116113886/217657341-00f52f86-237f-4d00-b09b-bfa4f73a6f4b.png)
+    
+    ![image](https://user-images.githubusercontent.com/116113886/217657657-ad479ae8-46b9-457b-b664-4f18f76c93c1.png)
+
+12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma       maila
+
+    SELECT name, email FROM customers JOIN sale ON customers.customer_id = sale.customer_id WHERE sale.movie_id = 4
+    
+    ![image](https://user-images.githubusercontent.com/116113886/217659634-96c08625-e162-43ab-831c-273f95fb6d4f.png)
+
+13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+
+    UPDATE customers SET email = 'pati@mail.com' WHERE name = 'Patrycja'
+    
+    ![image](https://user-images.githubusercontent.com/116113886/217663994-0cdb0697-ffd2-41f4-8ca4-450bb678308a.png)
+    
+    ![image](https://user-images.githubusercontent.com/116113886/217663939-dbb64c74-2cab-4c65-8a21-dbd99be05760.png)
+    
+14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join,     zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia)
+
+    SELECT sale_date, name, surname, title FROM sale INNER JOIN customers ON sale.customer_id = customers.customer_id INNER JOIN movies ON sale.movie_id =         movies.movie_id
+
+    ![image](https://user-images.githubusercontent.com/116113886/217668641-038548c1-a1b0-4edb-b9b3-7520daa712f4.png)
+    
+15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki     sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+
+    
+
+
+
 
 
 
